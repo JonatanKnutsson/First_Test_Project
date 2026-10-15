@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "C:/Users/KMB/anaconda3/python.exe .claude/hooks/ruff_fix.py",
+            "timeout": 30
+          }
+        ]
+      }
+    ]
+  }
+}
